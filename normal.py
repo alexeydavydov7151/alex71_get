@@ -1,10 +1,11 @@
-import matplotlib.pyplot as plt
+
+from matplotlib.pyplot import plot
 import numpy as np
+import show 
 
 size = 500
 
 x = np.linspace(0, size, size)
 y = np.random.normal(0, 1, size)
 
-plt.plot(x, y)
-plt.show()
+show.my_plot(x,y)
