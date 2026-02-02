@@ -1,0 +1,10 @@
+from matplotlib.pyplot import plot
+import numpy as np
+import show 
+
+size = 500
+
+x = np.linspace(0, size, size)
+y = np.random.uniform(0, 1, size)
+
+show.my_plot(x,y)
