@@ -1,5 +1,4 @@
 
-from matplotlib.pyplot import plot
 import numpy as np
 import show 
 
